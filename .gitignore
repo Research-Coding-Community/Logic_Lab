@@ -1,0 +1,10 @@
+# Local source feedback is not website content.
+/.private/
+
+# Operating system files and local tooling.
+.DS_Store
+node_modules/
+.sites-runtime/
+__pycache__/
+*.pyc
+*.log
