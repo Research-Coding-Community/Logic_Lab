@@ -4,6 +4,8 @@ The website for the Logic Lab, founded and led by Cat Russon with support from t
 
 The site introduces the Lab and records its sessions on 20 August and 15 October 2026. It includes the October presentation and reusable Learning Profile Top Trumps printouts.
 
+[Visit the Logic Lab website](https://research-coding-community.github.io/Logic_Lab/).
+
 ## Repository layout
 
 ```text
@@ -35,7 +37,11 @@ python3 -m http.server 8123 --bind 127.0.0.1 --directory website/dist
 
 Open <http://localhost:8123/>. Stop the server with Ctrl+C.
 
-The static files also work under a repository subpath on GitHub Pages. Publish `website/dist`, including its asset and resource directories, when configuring hosting.
+## GitHub Pages deployment
+
+The `.github/workflows/pages.yml` workflow publishes the complete `website/dist` directory on every push to `main`. It can also be run manually from GitHub Actions. Repository Settings > Pages must use **GitHub Actions** as the publishing source.
+
+The published artifact includes the site HTML, CSS, JavaScript, logo and learning materials. The repository README and supporting documentation are not published as the homepage. Relative URLs support the `/Logic_Lab/` project path.
 
 ## Navigation and editing
 
