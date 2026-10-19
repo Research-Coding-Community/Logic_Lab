@@ -73,3 +73,7 @@ The October resource text includes all presentation topics, a description and at
 ## Embedded October presentation
 
 The presentation is now embedded in a titled iframe, with links to open the PDF, read its web-text equivalent or skip the viewer. Chrome rendered the supplied slides successfully. The original untagged PDF and browser-native PDF controls have not been independently tested with assistive technology; automated audits flag the viewer for manual review. The reusable Top Trumps printout remains available as an unchanged PNG download and as HTML prompts. Published invitation figures are 23 acceptances and 18 tentative responses; no October attendance total is stated.
+
+## DisCouRSE acknowledgement
+
+The funding acknowledgement appears once in the footer of every page and remains available when switching session tabs. The notice uses readable secondary text and an underlined inline link. The network’s unchanged official SVG logo has alternative text and appears to the left of the vertically centred acknowledgement, with the existing footer links underneath. There is no separate funding heading or content section. Desktop and 320px checks on all four pages confirmed logo rendering, reflow and enlarged text; eight automated accessibility audits reported zero violations.

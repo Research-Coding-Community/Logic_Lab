@@ -511,3 +511,30 @@ main:focus {
     height: 440px;
   }
 }
+
+.funding-acknowledgement {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  align-items: center;
+  gap: 20px;
+  padding-block: 12px;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+.funding-acknowledgement a {
+  display: inline;
+  min-height: 0;
+  font-size: inherit;
+}
+.funding-logo {
+  display: block;
+  width: 120px;
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 480px) {
+  .funding-acknowledgement {
+    grid-template-columns: 88px minmax(0, 1fr);
+    gap: 14px;
+  }
+}

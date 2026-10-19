@@ -17,7 +17,8 @@ website/dist/
   assets/
     css/styles.css             Shared styling
     js/site.js                 Accessible tabs and browser history
-    images/logic-lab-logo.png   Supplied logo
+    images/logic-lab-logo.png   Supplied Logic Lab logo
+    images/discourse-logo.svg  Official DisCouRSE logo
   resources/2026-10-15/
     how-do-you-learn.pdf
     learning-profile-top-trumps.png
@@ -60,6 +61,12 @@ The October session covered learning and pedagogy and included the Top Trumps ac
 The raw feedback workbook is retained locally in the ignored `.private/feedback` directory. It contains respondent information and is not part of the website or Git history. Do not add it to the repository.
 
 The [Community Fair](https://research-coding-community.github.io/Community_Fair/) inspired the event overview, activities and review structure. The site links to the wider [Research Coding Community](https://research-coding-community.github.io/Research_Coding_Community/).
+
+## Funding acknowledgement
+
+Every page includes the funding acknowledgement specified in the [DisCouRSE social media and communications guidelines](https://discourse-network.github.io/assets/docs/Social-Media-Guidelines-Funded-Projects.pdf), with a link to the network website and its official logo. The logo is stored unchanged in `website/dist/assets/images/discourse-logo.svg`, sourced from [the network’s own website](https://discourse-network.github.io/assets/images/DisCouRSE-Logo-Light.svg).
+
+The acknowledgement appears as a compact footer notice, with the logo on the left and the acknowledgement vertically centred beside it. The existing footer links sit underneath. Keep the shared footer consistent across all four HTML documents.
 
 ## Accessibility
 
